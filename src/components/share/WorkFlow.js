@@ -1,3 +1,5 @@
+// import { workFlowData } from "../../data/home/workFlowData";
+
 const WorkFlow = () => {
   return (
     <div className="container">
@@ -9,6 +11,37 @@ const WorkFlow = () => {
           Process we follow
         </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+          {/* {
+                workFlowData.map(({id,icon,title}) => (
+                    <div key={id} className="flex flex-col justify-center items-center relative">
+              <span className="p-4 bg-white rounded-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] mb-8">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.075 22.125C11.9511 22.0819 11.8199 22.064 11.689 22.0722C11.5582 22.0804 11.4302 22.1146 11.3127 22.1727C11.1952 22.2309 11.0904 22.3119 11.0045 22.411C10.9187 22.5101 10.8534 22.6254 10.8125 22.75C9.9875 25.2125 7.325 25.975 5.7875 26.2125C6.025 24.675 6.7875 22.0125 9.25 21.1875C9.38484 21.1548 9.5114 21.0944 9.62165 21.0102C9.73189 20.926 9.8234 20.8198 9.89037 20.6983C9.95733 20.5767 9.99828 20.4426 10.0106 20.3045C10.0229 20.1663 10.0064 20.027 9.96199 19.8956C9.9176 19.7641 9.84634 19.6434 9.75275 19.541C9.65916 19.4386 9.54528 19.3567 9.41836 19.3007C9.29143 19.2447 9.15424 19.2157 9.01551 19.2156C8.87677 19.2154 8.73953 19.2442 8.6125 19.3C6.5625 19.975 5.0625 21.6 4.2625 23.9875C3.90803 25.0614 3.71427 26.1819 3.6875 27.3125C3.6875 27.5777 3.79286 27.832 3.98039 28.0196C4.16793 28.2071 4.42228 28.3125 4.6875 28.3125C5.81811 28.2857 6.93856 28.0919 8.0125 27.7375C10.4 26.9375 12.025 25.4375 12.7 23.3875C12.7431 23.2636 12.761 23.1324 12.7528 23.0015C12.7446 22.8706 12.7104 22.7427 12.6522 22.6252C12.594 22.5076 12.513 22.4029 12.4139 22.317C12.3148 22.2311 12.1996 22.1658 12.075 22.125Z"
+                    fill="#005564" />
+                  <path
+                    d="M28.45 5.22505C28.3914 4.8015 28.1961 4.40868 27.8937 4.10633C27.5914 3.80398 27.1985 3.60865 26.775 3.55005C25.3625 3.33755 21.7 3.23755 18.125 6.81255L17 7.92505H9.3375C8.80796 7.92866 8.3009 8.13956 7.925 8.51255L3.8875 12.5625C3.63148 12.8172 3.44966 13.1367 3.36157 13.4869C3.27348 13.837 3.28244 14.2046 3.3875 14.55C3.49174 14.898 3.68876 15.211 3.95743 15.4554C4.2261 15.6999 4.55627 15.8666 4.9125 15.9375L9.85 16.925L15.075 22.15L16.0625 27.0875C16.1335 27.4438 16.3002 27.7739 16.5446 28.0426C16.789 28.3113 17.102 28.5083 17.45 28.6125C17.6358 28.6721 17.8299 28.7016 18.025 28.7C18.2879 28.7024 18.5485 28.6516 18.7913 28.5506C19.034 28.4496 19.2538 28.3006 19.4375 28.1125L23.4875 24.075C23.8605 23.6991 24.0714 23.1921 24.075 22.6625V15L25.1875 13.875C28.7625 10.3 28.6625 6.63755 28.45 5.22505ZM9.3375 9.92505H15L10.0125 14.9125L5.3 13.975L9.3375 9.92505ZM22.075 22.6625L18.025 26.7L17.0875 21.9875L22.075 17V22.6625Z"
+                    fill="#005564" />
+                </svg>
+  
+              </span>
+              <h6 className="font-NotoSerif font-black text-xl text-[#08192B] mb-3">Ideate</h6>
+              <span className="font-Inter font-bold text-base text-secondary_color mb-3">01.</span>
+              <p className="font-SpaceGrotesk text-base text-black/60 text-center">
+                Massa enim libero dictumst consectetur in convallis. Lobortis cursus mi a magna ullamcorper consectetur.
+              </p>
+              <div className="xl:block hidden absolute top-9 -right-[35%]">
+  
+                <svg className="myLine" width="152" height="22" viewBox="0 0 152 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path   d="M1 14.7031C1 14.7031 32.5273 31.7875 65.7841 9.6746C99.0408 -12.4383 151 14.7031 151 14.7031"
+                    stroke="#D4E5F7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                    strokeDasharray="4 8" />
+                </svg>
+  
+              </div>
+            </div>
+                ))
+            } */}
           <div className="flex flex-col justify-center items-center relative">
             <span className="p-4 bg-white rounded-full drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] mb-8">
               <svg
