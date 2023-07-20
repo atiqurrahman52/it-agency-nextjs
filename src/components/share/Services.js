@@ -26,7 +26,7 @@ const Services = () => {
                     {description}
                   </p>
                   <Link
-                    href={`/service-details/${id}`}
+                    href={`/service/${id}`}
                     className="flex items-center text-secondary_color gap-1"
                   >
                     <span className="font-Inter font-medium text-sm md:text-base">
