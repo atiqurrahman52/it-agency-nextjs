@@ -1,8 +1,12 @@
 import Contact from "@/components/share/Contact";
+import Head from "next/head";
 
 const contact = () => {
   return (
     <div>
+      <Head>
+        <title>Contact Us</title>
+      </Head>
       <Contact />
       <iframe
         className="w-full h-[551px] md:h-[444px]"

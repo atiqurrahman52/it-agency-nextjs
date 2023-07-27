@@ -3,6 +3,7 @@ import BlogDetailsBanner from "@/components/blogDetails/BlogDetailsBanner";
 import RelatedPost from "@/components/blogDetails/RelatedPost";
 import Subscribe from "@/components/share/Subscribe";
 import { latestPostData } from "@/data/blog/latestPostData";
+import Head from "next/head";
 import { useRouter } from "next/router";
 
 // const blogDetail = ({ singleBlog }) => {
@@ -15,6 +16,9 @@ const blogDetail = () => {
   // );
   return (
     <div>
+       <Head>
+        <title>Blog Details</title>
+      </Head>
       <BlogDetailsBanner />
       <BlogDescription />
       <RelatedPost />
