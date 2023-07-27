@@ -6,23 +6,23 @@ const BlogDetailsBanner = ({ data }) => {
   // const { title, category, name } = data;
   // console.log("Mt Title", title, "Category", category);
   return (
-    <div className="blog_hero_bg h-fit bg-no-repeat mt-20">
+    <div className="blog_hero_bg h-fit bg-no-repeat mt-16 lg:mt-20">
       <div className="container">
         <div className="pt-5 mb-11 md:mb-14 max-w-[768px] mx-auto">
           <h6 className="font-Inter font-bold text-sm md:text-base text-black_color text-center mb-3 md:mb-4">
-            {/* {category} */}
+            Category
           </h6>
-          <h3 className="font-NotoSerif font-extrabold lsm:text-xl md:text-[40px] leading-[30px] md:leading-[48px] text-black_color text-center mb-6 md:mb-8 ">
-            {/* {title} */}
+          <h3 className="font-NotoSerif font-extrabold lsm:text-xl md:text-[40px] leading-[30px] md:leading-[48px] text-black_color text-center mb-6">
+            How To Write an Application Letter (With Examples)
           </h3>
           <img
-            className="mx-auto mb-2 md:mb-4"
+            className="mx-auto mb-2"
             src="/assets/images/user/user-1.png"
             alt=""
           />
 
           <h5 className="font-Inter font-bold text-sm md:text-lg text-black_color text-center">
-            {/* {name} */}
+            Full name
           </h5>
           <p className="font-Inter font-medium text-xs md:text-sm text-black/40 flex items-center justify-center gap-2">
             11 Jan 2022{" "}
