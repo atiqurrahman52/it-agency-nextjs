@@ -1,8 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination, Autoplay } from "swiper";
-// import SwiperCore, { Pagination, Autoplay } from 'swiper';
+// import { Pagination, Autoplay } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 import { recentWorkData } from "@/data/home/recentWorkData";
 import Link from "next/link";
 import { ArrowUpRight } from "@phosphor-icons/react";
@@ -35,13 +38,15 @@ const RecentWork = () => {
           spaceBetween={30}
           loop={true}
           // pagination={true}
-          pagination={{
-            clickable: true,
-          }}
+          // pagination={{
+          //   clickable: true,
+          // }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
           }}
+          // modules={[Autoplay, Navigation, Pagination]}
+          // modules={[ Pagination]}
           // modules={[Pagination, Autoplay]}
           className="pb-14"
         >

@@ -14,9 +14,9 @@ const BlogDescription = () => {
                 risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mt-10">
-                <img className="rounded-lg" src="../assets/images/blog-detail/blog-detail-1.webp" alt="" />
-                <img className="rounded-lg" src="../assets/images/blog-detail/blog-detail-2.webp" alt="" />
-                <img className="rounded-lg" src="../assets/images/blog-detail/blog-detail-3.webp" alt="" />
+                <img className="rounded-lg w-full" src="../assets/images/blog-detail/blog-detail-1.webp" alt="" />
+                <img className="rounded-lg w-full" src="../assets/images/blog-detail/blog-detail-2.webp" alt="" />
+                <img className="rounded-lg w-full" src="../assets/images/blog-detail/blog-detail-3.webp" alt="" />
             </div>
             <p className="font-Inter font-medium text-sm text-black_color border-l-2 border-secondary_color pl-2 mt-4">
                 Image caption goes here</p>

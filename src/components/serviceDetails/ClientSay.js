@@ -1,6 +1,7 @@
 import Testimonial from "../share/Testimonial";
 
 
+ 
 const ClientSay = () => {
   return (
     <div className="container">
@@ -10,7 +11,7 @@ const ClientSay = () => {
             Testimonials
           </h5>
           <h4 className="font-NotoSerif font-black text-xl md:text-[32px] text-black_color leading-[34px] md:leading-[48px]  text-center mb-8 md:mb-20">
-            Let&apos;s see what&apos;s clints say about our service
+            Let&apos;s see what&apos;s clients say about our service
           </h4>
         </div>
         <Testimonial />
